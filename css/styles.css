@@ -5,6 +5,7 @@
     --color-light: #fff;
     --color-bg-dark: #2f303a;
     --color-logo: #000;
+    --color-link: #fff9;
 }
 
 body {
@@ -46,6 +47,8 @@ a {
 }
 
 .contacts-link {
+    font-weight: 500;
+    line-height: 1.18;
     color: var(--color-secondary);
 }
 
@@ -59,22 +62,52 @@ a {
 }
 
 .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
     color: var(--color-light);
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .hero-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
     color: var(--color-light);
     border: none;
     background-color: var(--color-brand);
+    text-align: center;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.18;
+    text-align: center;
 }
 
 /* Benefits section  */
+.benefit-title {
+    font-weight: 700;
+    text-transform: uppercase;
+}
 .benefit-text {
+    font-size: 14px;
+    line-height: 1.7;
     color: var(--color-secondary);
 }
 
 /* Team section  */
+.person-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
 .person-job {
+    font-size: 16px;
+    line-height: 1.18;
     color: var(--color-secondary);
 }
 
@@ -88,7 +121,7 @@ a {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.18;
-    color: var(--color-logo);
+    color: var(--color-light);
 }
 
 .footer-logo .accent {
@@ -99,7 +132,7 @@ a {
 }
 
 .footer-link {
-    color: var(--color-primary);
+    color: var(--color-link);
 }
 
 .footer-link:hover {
