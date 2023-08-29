@@ -111,6 +111,11 @@ a {
     color: var(--color-secondary);
 }
 
+/* Works section */
+.works-title {
+    font-weight: 700;
+}
+
 /* Footer section  */
 .footer {
     background-color: var(--color-bg-dark);
