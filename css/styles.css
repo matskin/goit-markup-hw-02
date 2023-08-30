@@ -116,6 +116,12 @@ a {
     font-weight: 700;
 }
 
+.works-text {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--color-secondary);
+}
+
 /* Footer section  */
 .footer {
     background-color: var(--color-bg-dark);
