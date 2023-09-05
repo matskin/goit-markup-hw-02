@@ -62,7 +62,7 @@ a {
 }
 
 .hero-title {
-    font-weight: 900;
+    font-weight: 700;
     font-size: 44px;
     line-height: 1.36;
     color: var(--color-light);
@@ -120,6 +120,16 @@ a {
     font-size: 14px;
     line-height: 1.7;
     color: var(--color-secondary);
+}
+
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    color: var(--color-light);
+    border: none;
+    background-color: var(--color-brand);
+    text-align: center;
 }
 
 /* Footer section  */
