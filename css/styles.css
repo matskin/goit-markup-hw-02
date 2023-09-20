@@ -46,6 +46,10 @@ a {
     color: var(--color-brand);
 }
 
+.header-link:active {
+    color: var(--color-brand);
+}
+
 .contacts-link {
     font-weight: 500;
     line-height: 1.18;
@@ -62,7 +66,7 @@ a {
 }
 
 .hero-title {
-    font-weight: 700;
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     color: var(--color-light);
