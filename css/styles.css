@@ -46,7 +46,7 @@ a {
     color: var(--color-brand);
 }
 
-.header-link:active {
+.selected {
     color: var(--color-brand);
 }
 
