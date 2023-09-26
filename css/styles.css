@@ -6,6 +6,8 @@
     --color-bg-dark: #2f303a;
     --color-logo: #000;
     --color-link: #fff9;
+    --color-btn: #f5f4fa;
+    --color-bg-team: #d9d9d9;
 }
 
 body {
@@ -103,6 +105,10 @@ a {
 }
 
 /* Team section  */
+.team {
+background-color: var(--color-bg-team);
+}
+
 .person-name {
     font-weight: 500;
     font-size: 16px;
@@ -118,6 +124,9 @@ a {
 /* Works section */
 .works-title {
     font-weight: 700;
+    font-size: 18px;
+    line-height: 1.875;
+    color: var(--color-primary);
 }
 
 .works-text {
@@ -127,13 +136,18 @@ a {
 }
 
 .works-button {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.875;
-    color: var(--color-light);
+    color: var(--color-primary);
     border: none;
-    background-color: var(--color-brand);
+    background-color: var(--color-btn);
     text-align: center;
+}
+
+.works-button.selected {
+    color: var(--color-light);
+    background-color: var(--color-brand);
 }
 
 /* Footer section  */
