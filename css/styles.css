@@ -6,8 +6,7 @@
     --color-bg-dark: #2f303a;
     --color-logo: #000;
     --color-link: #fff9;
-    --color-btn: #f5f4fa;
-    --color-bg-team: #d9d9d9;
+    --color-bg: #f5f4fa;
 }
 
 body {
@@ -96,6 +95,7 @@ a {
 /* Benefits section  */
 .benefit-title {
     font-weight: 700;
+    font-size: 14px;
     text-transform: uppercase;
 }
 .benefit-text {
@@ -106,7 +106,7 @@ a {
 
 /* Team section  */
 .team {
-background-color: var(--color-bg-team);
+background-color: var(--color-bg);
 }
 
 .person-name {
@@ -141,8 +141,13 @@ background-color: var(--color-bg-team);
     line-height: 1.875;
     color: var(--color-primary);
     border: none;
-    background-color: var(--color-btn);
+    background-color: var(--color-bg);
     text-align: center;
+}
+
+.works-button:hover {
+    color: var(--color-light);
+    background-color: var(--color-brand);
 }
 
 .works-button.selected {
